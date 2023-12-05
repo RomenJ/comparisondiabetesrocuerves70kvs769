@@ -93,7 +93,7 @@ plt.title('Curva ROC N=768')
 plt.legend(loc='lower right')
 plt.show()
 
-
+#origin_dataset: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
 datos = pd.read_csv('diabetes_binary_5050split_health_indicators_BRFSS2015.csv')
 print('Tamaño Muestral Grupo 1: N= 70692')
 print(len (datos))
